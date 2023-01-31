@@ -6,6 +6,16 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
+/*HEADER*/
+header{
+    margin-bottom: 2rem;
+}
+
+main {
+    background-color: #f6f8f9;
+
+}
+
 .img-header {
     background-color: white;
  
@@ -17,11 +27,64 @@ h1, .img-header {
     vertical-align: middle;
 }
 
+/*MAIN*/
 .container {
     width: 80%;
     margin: 0 auto;
+    background-color: white;
 }
 
+/*BOTTONI*/
+.tasto-blu {
+    background-color: #46e0f1;
+    border: none;
+}
+
+.tasto-bianco {
+    background-color: white;
+    border-color: gray;
+}
+
+.tasto-bianco, .tasto-blu {
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+   
+}
+
+/*TABELLA*/
 ul {
+    font-size: 1.5rem;
     list-style-type: none;
+}
+
+.editorial {
+    border-radius: 10px;
+    background-color: #45abea;
+}
+
+.goals {
+    border-radius: 10px;
+    background-color: #9c72e4;
+
+}
+
+.recruiting {
+    border-radius: 10px;
+    background-color: #64c0a9;
+}
+
+.mobile{
+    border-radius: 10px;
+    background-color: #f29e33;
+}
+
+.website {
+    border-radius: 10px;
+    background-color: #d863a1;
+}
+
+.sales {
+    border-radius: 10px;
+    background-color: #b0c926;
 }
