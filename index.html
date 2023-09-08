@@ -1,61 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Toboolist</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- inizio header -->
     <header>
-        <div class="img-header">
-            <img src="img/Logo.png" alt="Logo">
-        </div>
-        <h1>Toboolist</h1>
+      <div class="img-header">
+        <img src="img/Logo.png" alt="Logo" />
+      </div>
+      <h1>Toboolist</h1>
     </header>
     <!-- fine header -->
 
     <!-- inizio main -->
-    <main>        
-        <div class="container">
-            <!-- bottoni -->
-            
-            <!-- fine bottoni -->
-                <input class="tasto-blu" type="submit"value="Add Task">
-                </form>
-                <input class="tasto-bianco" type="submit"value="Add Section">
-                </form>
-            <!-- inizio lista -->
-            <ul>
-                <li>&#9662;<strong>New Task</strong>
-                    <ul><span>&#x2713;</span> Quarterly Newsletter <span class="editorial">Editorial</span></ul> 
-                </li>
-                <li>&#9662;<strong>Today</strong>
-                    <ul>
-                        <li><span>&#x2713;</span> Recruiting blablabla <span class="editorial">Editorial</span><span></span> </li>
-                        <li><span>&#x2713;</span> Mobile  <span class="goals">Q1 Goals</span></li>
-                        <li><span>&cross;</span>Interview blablabla <span class="recruiting">Recruiting</span></li>
-                        <li><span>&#x2713;</span> Summit blablabla <span class="mobile">Mobile</span></li>
-                    </ul>
-                </li>
-                <li>&#9662;<strong>Upcoming                </strong>
-                    <ul>
-                        <li><span>&cross;</span>Schedule blablabla</li>
-                        <li><span>&#x2713;</span> Homepage blablabla <span class="website">Website</span></li>
-                        <li><span>&#x2713;</span> Onboard blablabla <span class="sales">Sales</span></li>
-                        <li><span>&#x2713;</span> Review blablabla <span class="editorial">Editorial</span></li>
-                    </ul>
-                </li>
-            </ul>
-            <!-- fine lista -->
+    <main>
+      <div class="container">
+        <!-- bottoni -->
+        <div class="buttons">
+          <input class="tasto-blu" type="submit" value="Add Task" />
+          <input class="tasto-bianco" type="submit" value="Add Section" />
         </div>
+        <!-- fine bottoni -->
+
+        <!-- inizio lista -->
+        <div class="lista">
+          <ul>
+            <li>
+              &#9662;<strong>New Task</strong>
+              <ul>
+                <span>&#x2713;</span>
+                Quarterly Newsletter
+                <span class="editorial">Editorial</span>
+              </ul>
+            </li>
+            <li>
+              &#9662;<strong>Today</strong>
+              <ul>
+                <li>
+                  <span>&#x2713;</span> Recruiting blablabla
+                  <span class="editorial">Editorial</span><span></span>
+                </li>
+                <li>
+                  <span>&#x2713;</span> Mobile
+                  <span class="goals">Q1 Goals</span>
+                </li>
+                <li>
+                  <span>&cross;</span>Interview blablabla
+                  <span class="recruiting">Recruiting</span>
+                </li>
+                <li>
+                  <span>&#x2713;</span> Summit blablabla
+                  <span class="mobile">Mobile</span>
+                </li>
+              </ul>
+            </li>
+            <li>
+              &#9662;<strong>Upcoming </strong>
+              <ul>
+                <li><span>&cross;</span>Schedule blablabla</li>
+                <li>
+                  <span>&#x2713;</span> Homepage blablabla
+                  <span class="website">Website</span>
+                </li>
+                <li>
+                  <span>&#x2713;</span> Onboard blablabla
+                  <span class="sales">Sales</span>
+                </li>
+                <li>
+                  <span>&#x2713;</span> Review blablabla
+                  <span class="editorial">Editorial</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- fine lista -->
+      </div>
     </main>
     <!-- fine main -->
 
     <!-- inizio footer -->
     <footer></footer>
     <!-- fine footer -->
-</body>
+  </body>
 </html>
